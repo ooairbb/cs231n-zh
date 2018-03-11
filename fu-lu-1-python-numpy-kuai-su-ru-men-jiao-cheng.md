@@ -54,15 +54,13 @@
 
 &lt;a name='python'&gt;&lt;/a&gt;
 
-\#\# Python
+## Python
 
 Python是一门高级的，动态类型，多参数的编程语言。Python程序被誉为“可执行的伪代码”，因为你允许你使用极少的几行代码就可以实现强大的逻辑。作为示例，下面是使用Python编写的经典快速排序实现。
 
-\`\`\`python
+```python
 
-def quicksort\(arr\):
-
-```
+def quicksort(arr):
 if len\(arr\) &lt;= 1:
 
     return arr
@@ -76,6 +74,12 @@ middle = \[x for x in arr if x == pivot\]
 right = \[x for x in arr if x &gt; pivot\]
 
 return quicksort\(left\) + middle + quicksort\(right\)
+```
+
+
+
+```
+
 ```
 
 print\(quicksort\(\[3,6,8,10,1,2,1\]\)\)
