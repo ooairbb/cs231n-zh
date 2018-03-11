@@ -1,6 +1,6 @@
 # Python Numpy 入门教程
 
-本教程最初由 \[Justin Johnson\]\([http://cs.stanford.edu/people/jcjohns/\](http://cs.stanford.edu/people/jcjohns/%29%29 撰写创立。现由[Qi %28Lewis\) Liu\]\([https://github.com/liuqidev\](https://github.com/liuqidev%29\) 翻译整理。
+本教程最初由 \[Justin Johnson\]\([http://cs.stanford.edu/people/jcjohns/](http://cs.stanford.edu/people/jcjohns/%29%29 撰写创立。现由[Qi %28Lewis\)\) \[@Qi Liu\]\([https://github.com/liuqidev](https://github.com/liuqidev%29\)/\) 翻译整理。
 
 在本门课程（CS231n）中， 我们将使用Python编程语言来提交所有的作业。Python就其本身而言是一门通用的编程语言，得益于众多受欢迎的开源库（numpy, scipy, matplotlib），其成为科学计算领域不可多得的强大工具。
 
@@ -59,6 +59,4 @@
   * \[图片 Images\]\(\#matplotlib-images\)
 
 &lt;a name='python'&gt;&lt;/a&gt;
-
-
 
