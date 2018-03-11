@@ -54,35 +54,29 @@
 
 &lt;a name='python'&gt;&lt;/a&gt;
 
-
-
 \#\# Python
 
-
-
 Python是一门高级的，动态类型，多参数的编程语言。Python程序被誉为“可执行的伪代码”，因为你允许你使用极少的几行代码就可以实现强大的逻辑。作为示例，下面是使用Python编写的经典快速排序实现。
-
-
 
 \`\`\`python
 
 def quicksort\(arr\):
 
-    if len\(arr\) &lt;= 1:
+```
+if len\(arr\) &lt;= 1:
 
-        return arr
+    return arr
 
-    pivot = arr\[len\(arr\) // 2\]
+pivot = arr\[len\(arr\) // 2\]
 
-    left = \[x for x in arr if x &lt; pivot\]
+left = \[x for x in arr if x &lt; pivot\]
 
-    middle = \[x for x in arr if x == pivot\]
+middle = \[x for x in arr if x == pivot\]
 
-    right = \[x for x in arr if x &gt; pivot\]
+right = \[x for x in arr if x &gt; pivot\]
 
-    return quicksort\(left\) + middle + quicksort\(right\)
-
-
+return quicksort\(left\) + middle + quicksort\(right\)
+```
 
 print\(quicksort\(\[3,6,8,10,1,2,1\]\)\)
 
@@ -90,21 +84,13 @@ print\(quicksort\(\[3,6,8,10,1,2,1\]\)\)
 
 \`\`\`
 
-
-
 \#\#\# Python 版本
 
 目前有两个官方支持的Python版本，一个是2.7版本，另一个是3.5的。
 
-
-
 那么该选择哪个呢？Python 3.0 引入了很多向后不兼容的语法，所以使用Python 2.7编写的代码可能在3.5版本之下无法运行，反之亦然。
 
-
-
 对于本门课程来说，所有代码将采用Python 3.5. \(译者注：事实上并非如此\)
-
-
 
 你可以通过在命令行上输入以下代码来查看自己的Python 版本：
 
