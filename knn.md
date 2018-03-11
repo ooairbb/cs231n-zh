@@ -1,6 +1,3 @@
-# 问题 1-1  k 最近邻分类器
-
----
 
 # kNN(k-Nearest Neighbor, k近邻)练习
 
@@ -62,7 +59,7 @@ print(y_test.shape)
     (10000L, 32L, 32L, 3L)
     测试集标签大小：
     (10000L,)
-
+    
 
 
 ```python
@@ -92,7 +89,7 @@ plt.show()
 ```
 
 
-![png](assignment1/Q1/output_3_0.png)
+![png](output_3_0.png)
 
 
 
@@ -118,7 +115,7 @@ print(X_train.shape, X_test.shape)
 ```
 
     ((5000L, 3072L), (500L, 3072L))
-​    
+    
 
 
 ```python
@@ -152,7 +149,7 @@ print(dists.shape)
 ```
 
     (500L, 5000L)
-​    
+    
 
 
 ```python
@@ -163,7 +160,7 @@ plt.show()
 ```
 
 
-![png](assignment1/Q1/output_9_0.png)
+![png](output_9_0.png)
 
 
 **相关问题 #1:**注意观察距离矩阵的结构特点, 其中有些列和行看起来要亮一些.(默认的显示设置为,距离近的颜色越深,距离远的颜色越淡).
@@ -187,7 +184,7 @@ print(u"Got %d / %d correct => accuracy: %f"%(num_correct, num_test, accuracy))
 ```
 
     Got 137 / 500 correct => accuracy: 0.274000
-​    
+    
 
 
 ```python
@@ -211,7 +208,7 @@ else:
 
     Difference was: 0.000000
     Good! The distance matrixs are the same!
-
+    
 
 
 ```python
@@ -231,7 +228,7 @@ else:
 
     Difference was: 0.000000
     Good! The distances are the same!
-
+    
 
 
 ```python
@@ -273,7 +270,7 @@ print(no_loop_time)
     99.998000145
     无循环版本耗时:
     0.742999792099
-
+    
 
 ### 交叉验证(Cross-validation)
 
@@ -387,7 +384,7 @@ for k in sorted(k_to_accuracies):
     k = 100, accuracy = 0.263000
     k = 100, accuracy = 0.256000
     k = 100, accuracy = 0.263000
-
+    
 
 
 ```python
@@ -408,7 +405,7 @@ plt.show()
 ```
 
 
-![png](assignment1/Q1/output_19_0.png)
+![png](output_19_0.png)
 
 
 
@@ -428,5 +425,4 @@ print('Got %d / %d correst => accuracy: %f'%(num_correct, num_test, accuracy))
 ```
 
     Got 263 / 500 correst => accuracy: 0.526000
-​    
-
+    
